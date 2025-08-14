@@ -4,6 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Saudacao from './components/Saudacao'
 import Rodape from './components/Rodape'
+import Alerta from './components/Alerta'
+import EmailImput from './components/EmailInput'
+import EmailField from './components/EmailField'
+import PasswordField from './components/PasswordField'
+import LoginButton from './components/LoginButton'
 
 function App() {
 const nome = "Rafaella";
@@ -17,6 +22,10 @@ return (
             <h1> Você tem {calculaIdade()} anos</h1>;
             	<Saudacao />
 		          <Rodape />
+                      <Alerta/>
+                      <EmailField/>
+                      <PasswordField/>
+                      <LoginButton/>
           </div>
 
 )    
