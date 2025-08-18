@@ -1,8 +1,8 @@
-function Perfil(props) {
+function Perfil({nome , renda}) {
 return (
   <div className="perfilCliente">
-    <h2> {props.nome} </h2>
-    <p> {props.renda} </p>
+    <h2>  Cliente: {nome} </h2>
+    <p>  Renda :{renda} </p>
   </div>
 )
 }
