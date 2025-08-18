@@ -9,6 +9,7 @@ import EmailImput from './components/EmailInput'
 import EmailField from './components/EmailField'
 import PasswordField from './components/PasswordField'
 import LoginButton from './components/LoginButton'
+import Perfil from './components/Perfil'
 
 function App() {
 const nome = "Rafaella";
@@ -20,12 +21,14 @@ return (
           <div>
             <h1> Olá, {nome}!</h1>;
             <h1> Você tem {calculaIdade()} anos</h1>;
+            
             	<Saudacao />
 		          <Rodape />
                       <Alerta/>
                       <EmailField/>
                       <PasswordField/>
                       <LoginButton/>
+                      <Perfil nome="Rafaella" renda= " R$ 20.000"/>
           </div>
 
 )    
