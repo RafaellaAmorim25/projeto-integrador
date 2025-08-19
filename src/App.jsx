@@ -10,6 +10,8 @@ import EmailField from './components/EmailField'
 import PasswordField from './components/PasswordField'
 import LoginButton from './components/LoginButton'
 import Perfil from './components/Perfil'
+import Produto from './components/Produto'
+import Container from '../Container'
 
 function App() {
 const nome = "Rafaella";
@@ -23,12 +25,16 @@ return (
             <h1> Você tem {calculaIdade()} anos</h1>;
             
             	<Saudacao />
-		          <Rodape />
-                      <Alerta/>
-                      <EmailField/>
-                      <PasswordField/>
-                      <LoginButton/>
-                      <Perfil nome="Rafaella" renda= " R$ 20.000"/>
+		      <Produto nome="caderno" preco={3.5} emEstoque={true}/>
+                  <Produto nome="Mouse" preco={80.00} emEstoque={false} />
+                  <Produto nome="Laptop" preco={4500.50} emEstoque={true} />
+                  <Container>
+            <h1>Título Principal</h1>
+            <p>Todo este conteúdo está dentro do container.</p>
+            </Container>
+
+
+
           </div>
 
 )    
