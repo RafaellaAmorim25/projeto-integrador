@@ -12,6 +12,8 @@ import LoginButton from './components/LoginButton'
 import Perfil from './components/Perfil'
 import Produto from './components/Produto'
 import Container from '../Container'
+import Contador from './components/Contador'
+import ModoNoturno from './components/ModoNoturno'
 
 function App() {
 const nome = "Rafaella";
@@ -32,9 +34,9 @@ return (
             <h1>Título Principal</h1>
             <p>Todo este conteúdo está dentro do container.</p>
             <p>Rafaella está testanddddoooo.</p>
-         
-
-            </Container>
+             </Container>
+            <Contador/>
+            <ModoNoturno/>
 
 
 
