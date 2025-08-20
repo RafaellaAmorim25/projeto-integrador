@@ -18,6 +18,7 @@ import Formulario from './components/Formulario'
 import FiltroProdutos from './components/FiltroProdutos'
 import Carrinho from './components/Carrinho'
 import Faq from './components/Faq'
+import ListaNomes from './components/ListaNomes'
 
 
 function App() {
@@ -46,6 +47,7 @@ return (
             <FiltroProdutos/>
             <Carrinho/>
             <Faq/>
+            <ListaNomes/>
 
 
 
