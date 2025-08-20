@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Dark.css'
+import './Dark.module.css'
 
 function ModoNoturno() {
   const [ModoNoturno, setModoNoturno] = useState(false);

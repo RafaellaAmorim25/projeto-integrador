@@ -14,6 +14,8 @@ import Produto from './components/Produto'
 import Container from '../Container'
 import Contador from './components/Contador'
 import ModoNoturno from './components/ModoNoturno'
+import Formulario from './components/Formulario'
+
 
 function App() {
 const nome = "Rafaella";
@@ -37,6 +39,7 @@ return (
              </Container>
             <Contador/>
             <ModoNoturno/>
+            <Formulario/>
 
 
 
