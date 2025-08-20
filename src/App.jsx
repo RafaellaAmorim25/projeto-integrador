@@ -16,6 +16,7 @@ import Contador from './components/Contador'
 import ModoNoturno from './components/ModoNoturno'
 import Formulario from './components/Formulario'
 import FiltroProdutos from './components/FiltroProdutos'
+import Carrinho from './components/Carrinho'
 
 
 function App() {
@@ -42,6 +43,7 @@ return (
             <ModoNoturno/>
             <Formulario/>
             <FiltroProdutos/>
+            <Carrinho/>
 
 
 
