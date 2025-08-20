@@ -17,6 +17,7 @@ import ModoNoturno from './components/ModoNoturno'
 import Formulario from './components/Formulario'
 import FiltroProdutos from './components/FiltroProdutos'
 import Carrinho from './components/Carrinho'
+import Faq from './components/Faq'
 
 
 function App() {
@@ -44,6 +45,7 @@ return (
             <Formulario/>
             <FiltroProdutos/>
             <Carrinho/>
+            <Faq/>
 
 
 
