@@ -4,7 +4,6 @@ function ContatoPage() { return <h1>Sobre Nós</h1>; }
  
 function App() {
   return (
-<<<<<<< HEAD
     <div>
       <nav>
         <Link to="/">Início</Link> | <Link to="/Contato">ContatoPage</Link>
